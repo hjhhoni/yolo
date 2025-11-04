@@ -1,0 +1,25 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: F:/yolov11/datasets  # windows if linux：/root/yolov11/datasets
+path: /home/user002/HJH/YOLOv11/datasets  # linux dataset root dir
+train: images/train/       # 使用相对路径指向训练图片文件夹
+val: images/val/           # 使用相对路径指向验证图片文件夹
+test: images/test/         # 使用相对路径指向测试图片文件夹（可选）
+
+# Classes
+names:
+  0: SU
+  1: DU
+  2: SL
+  3: DL
+  4: SR
+  5: DR
+  6: A630
+  7: A411
+  8: A413
+  9: B630
+  10: B411
+  11: B413
+  12: C630
+  13: C411
+  14: C413
+  15: N630
